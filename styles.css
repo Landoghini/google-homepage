@@ -1,0 +1,46 @@
+.nav{
+	position: fixed;
+    z-index: 1;
+    right: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 100px;
+    float: right;
+    margin: 7px 15px 0px 0px;
+}
+ul{
+	list-style-type: none;
+	display: inline-block;
+}
+li{
+    margin-right: 6px;
+	display: inline;
+}
+.top{
+	float: right;
+}
+.search-bar{
+    height: 20px;
+    width: 50%;
+	margin-top: 25%;
+    margin-bottom: 10px; 
+}
+.btn-left, .btn-right{
+    margin-top: 10px;
+    display: inline;
+}
+button:hover{
+    box-shadow: 0px 1px 5px .5px;
+}
+.btn-left{
+    margin-right: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+.right-side{
+    margin-left: 800px;
+    margin-right: 10px;
+}
