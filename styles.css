@@ -3,7 +3,7 @@
     z-index: 1;
     right: 5px;
     font-family: Arial, sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     height: 100px;
     float: right;
     margin: 7px 15px 0px 0px;
@@ -18,11 +18,12 @@ li{
 }
 .top{
 	float: right;
+    height: 30px;
 }
 .search-bar{
     height: 20px;
     width: 50%;
-	margin-top: 25%;
+	margin-top:0;
     margin-bottom: 10px; 
 }
 .btn-left, .btn-right{
@@ -36,6 +37,8 @@ button:hover{
     margin-right: 10px;
 }
 footer{
+    max-width: 100%;
+    background:#D3D3D3;
     position: absolute;
     bottom: 0;
     width: 100%
@@ -47,6 +50,16 @@ footer{
 
 a{
     text-decoration: none;
+}
+.bottom li:hover{
+     text-shadow:
+        1px 0px 0px #fff, 0px 1px 1px #e5e5e5,
+        2px 1px 1px #fff, 1px 2px 1px #e5e5e5,
+        3px 2px 1px #fff, 2px 3px 1px #e5e5e5,
+        4px 3px 1px #fff, 3px 4px 1px #e5e5e5,
+        5px 4px 1px #fff, 4px 5px 1px #e5e5e5, 
+        6px 5px 1px #fff, 5px 6px 1px #e5e5e5,
+        7px 6px 1px #fff;
 }
 li:hover{
     text-shadow:
@@ -60,4 +73,7 @@ li:hover{
 }
 a:link, a:visited, a:hover,a:active{
     color:black;
+}
+.og-google{
+    margin-top: 200px;
 }
